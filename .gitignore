@@ -4,3 +4,8 @@
 #node
 node_modules/
 package-lock.json
+
+#media
+*.jpg
+*.jpeg
+*.png

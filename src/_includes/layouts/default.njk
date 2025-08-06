@@ -1,5 +1,5 @@
 ---
-title: Octopus Maps Project
+title: The Practiced Leader
 ---
 
 <!doctype html>
@@ -10,13 +10,15 @@ title: Octopus Maps Project
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/styles/index.css">
   </head>
-  <body class="bg-base-300">
+  <body class="bg-base-200">
     <header>
       {% include "nav.html" %}
     </header>
     <main>
       {{ content | safe }}
     </main>
+    <section class="container-full mx-auto bg-primary text-primary-content">
       {% include "footer.html" %}
+    </section>
   </body>
 </html>
